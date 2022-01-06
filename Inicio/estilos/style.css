@@ -1,0 +1,24 @@
+.letras{
+    font-family: 'Crimson Pro', serif;
+        font-size: 48px;
+}
+
+.bg-gris{
+    background-color: rgb(70, 69, 69);
+}
+
+.margen-l{
+margin-left: 30%;
+}
+
+.margen-l2{
+    margin-left: 20%;
+}
+
+.margen-r{
+margin-right: 40%;
+}
+
+.body{
+    background: rgb(73, 69, 69);
+}
