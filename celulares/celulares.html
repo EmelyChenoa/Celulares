@@ -11,7 +11,7 @@
 </head>
 <body class="body">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-lights bg-gris">
+    <nav class="navbar navbar-expand-lg navbar-light bg-lights bg-gris border-bottom">
         <div class="container-fluid">
           <a class=" navbar-brand text-white h2" href="#">Celulares</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,15 +37,47 @@
         </div>
       </nav>
 
-    <div class="container  mt-5 p-1 rounded-3">
+      <div class="col-lg-12 contenedor secundario border border-dark bg-dark p-1 d-flex">
+
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="fas fa-align-justify"></i>
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+</div>
+<div>
+  <button class="btn btn-dark">Ofertas</button>
+  <button class="btn btn-dark">Servicio al cliente </button>
+</div>
+      </div>
+
+    <div class="container mt-5 ">
         <div>
         <p class="text-white"> Categorías</p>
       </div>
-      <div class="d-flex gap-2 border border-dark">
+      <div class="d-flex gap-2 mt-4">
         <div class="card" style="width: 18rem;">
           <img src="fotos/samsung.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Samsung</h5>
+            <h5 class="card-title"> <div>
+              <a href="samsug/samsug.html" class="link-dark"> Samsung </a>
+            </div></h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
@@ -53,7 +85,9 @@
           <div class="card" style="width: 18rem;">
             <img src="fotos/iphone2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Iphone</h5>
+              <h5 class="card-title"> <div>
+                <a href="Iphone/iphone.html" class="link-dark"> Iphone </a>
+              </div> </h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -61,7 +95,9 @@
           <div class="card" style="width: 18rem;">
             <img src="fotos/alcantel2.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Alcatel</h5>
+              <h5 class="card-title"> <div>
+                <a href="alcatel/alcatel.html" class="link-dark"> Alcatel </a>
+              </div> </h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -69,12 +105,55 @@
           <div class="card" style="width: 18rem;">
             <img src="fotos/xiaomi.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Xiaomi</h5>
+              <h5 class="card-title"><div>
+                  <a href="xioami/xioami.html" class="link-dark"> Xiaomi </a>
+                </div>
+              </h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>           
+            </div>         
       </div> <!-- aqui termina el div con d-flex -->
+      </div>
+      <div class="d-flex mt-3 gap-2">
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/huawei.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Huawei</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>     
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/motorola4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Motorola</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>     
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/sony.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">lg</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>     
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="fotos/oneplus.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">One Plus</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>     
+        </div>
+      </div>
       
+          </div>  
+        
+
     </div>
 
 
@@ -83,7 +162,8 @@
 
 
 
-    <!-- JavaScript Bundle with Popper -->
+  
+<script src="https://kit.fontawesome.com/ac90a8f3f9.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
